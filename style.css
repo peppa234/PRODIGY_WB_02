@@ -1,0 +1,68 @@
+
+@font-face {
+    font-family: 'HopesAndDreams';
+    src: url('fonts/hopesanddreams-4ngdw.otf') format('opentype');
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url("image.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "HopesAndDreams";
+    font-style: normal;
+    color: palevioletred;
+    font-weight: 200;
+    overflow: hidden;
+}
+
+.container {
+    padding: 1rem;
+    max-width: 300px;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.bungee-regular {
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+h1 {
+    color: palevioletred;
+}
+
+p {
+    color: black;
+}
+
+button {
+    margin-top: 20px;
+    font-family: "Poppins", 'sans-serif';
+    font-weight: 100px;
+    background-color: palevioletred;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.time {
+    padding: 1rem 0;
+    font-size: 2rem;
+}
+
+#lapContainer {
+    margin-top: 20px;
+    color: black;
+    font-family: 'Poppins' , 'bold';
+    font-weight: 300;
+}
+
+  
